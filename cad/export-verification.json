@@ -1,0 +1,228 @@
+{
+  "status": "Geometry checks only; physical assembly and loaded motion unverified",
+  "parts": {
+    "01_base_tub": {
+      "file": "stl/01_base_tub.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "finite_vertices": true,
+      "volume_mm3": 74197.01391040084,
+      "sha256": "93f746d7ecd7db28cc5ce0afa499a8bfa4ad47d14cf2540b097f19a6b741a4d5"
+    },
+    "02_base_bottom_cover": {
+      "file": "stl/02_base_bottom_cover.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "finite_vertices": true,
+      "volume_mm3": 41640.51988061832,
+      "sha256": "63ff517097ff05cd646b913ca6be72515a12ac6b8c0a881cdb154cf4d76cd7f6"
+    },
+    "03_reference_body_six_tentacles": {
+      "file": "stl/03_reference_body_six_tentacles.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "finite_vertices": true,
+      "volume_mm3": 102654.72173907243,
+      "sha256": "19ce817c8f346000ebbcbfc08fe2d7409711917aebda090587621ebef78ed0fb"
+    },
+    "04_servo_clamp_1": {
+      "file": "stl/04_servo_clamp_1.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "finite_vertices": true,
+      "volume_mm3": 931.41829648272,
+      "sha256": "5ce2945a517bb1f089b48a62d65db99a471be6923255bd38380a92318ab5ba37"
+    },
+    "04_servo_clamp_2": {
+      "file": "stl/04_servo_clamp_2.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "finite_vertices": true,
+      "volume_mm3": 892.9064438605583,
+      "sha256": "ddc1188714e40dba96b4cadeb6ce4ccf2ddee7917e1065b404988288ab6d2b2e"
+    },
+    "07_display_retainer": {
+      "file": "stl/07_display_retainer.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "finite_vertices": true,
+      "volume_mm3": 1776.005207110924,
+      "sha256": "a35cff24e754af30e8b110f1a16a1f4661b87bec50775b914349855e7920f1de"
+    },
+    "05_head_front": {
+      "file": "stl/05_head_front.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "finite_vertices": true,
+      "volume_mm3": 82027.21995441533,
+      "sha256": "71c9390043334bd6c37d348873bf5ee0b7c9f8ef697cc9c1c4697006bd840fdf"
+    },
+    "06_head_rear": {
+      "file": "stl/06_head_rear.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "finite_vertices": true,
+      "volume_mm3": 72630.018477407,
+      "sha256": "f5dd91d28abd9897abfb9074a9576d952c89190c99a7d7a033b7194250ae63f6"
+    },
+    "08_hollow_neck_drive": {
+      "file": "stl/08_hollow_neck_drive.stl",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "finite_vertices": true,
+      "volume_mm3": 8034.735578296527,
+      "sha256": "ef7023f86cbf51370f879213f2c7b07ccdca3bf6e0fd55bd83f1769ccf7a7b36"
+    }
+  },
+  "hardware_box_pairs": [
+    {
+      "a": "servo_body",
+      "b": "display",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "servo_body",
+      "b": "speaker",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "servo_body",
+      "b": "lipo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "servo_body",
+      "b": "esp32_c3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "servo_body",
+      "b": "audio_amplifier",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "servo_body",
+      "b": "servo_power_converter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "servo_body",
+      "b": "tp4056",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "display",
+      "b": "speaker",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "display",
+      "b": "lipo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "display",
+      "b": "esp32_c3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "display",
+      "b": "audio_amplifier",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "display",
+      "b": "servo_power_converter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "display",
+      "b": "tp4056",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "speaker",
+      "b": "lipo",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "speaker",
+      "b": "esp32_c3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "speaker",
+      "b": "audio_amplifier",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "speaker",
+      "b": "servo_power_converter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "speaker",
+      "b": "tp4056",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "lipo",
+      "b": "esp32_c3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "lipo",
+      "b": "audio_amplifier",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "lipo",
+      "b": "servo_power_converter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "lipo",
+      "b": "tp4056",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "esp32_c3",
+      "b": "audio_amplifier",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "esp32_c3",
+      "b": "servo_power_converter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "esp32_c3",
+      "b": "tp4056",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "audio_amplifier",
+      "b": "servo_power_converter",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "audio_amplifier",
+      "b": "tp4056",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "servo_power_converter",
+      "b": "tp4056",
+      "overlap_mm3": 0.0
+    }
+  ]
+}

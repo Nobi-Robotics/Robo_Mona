@@ -1,0 +1,1179 @@
+{
+  "units": "mm",
+  "status": "FIT-CHECK PROTOTYPE \u2014 physical fit, load, motion, thermal and charging validation NOT performed",
+  "coordinate_system": "X right, Y rear, Z up; front is -Y",
+  "parts": {
+    "01_base_tub": {
+      "file": "stl/01_base_tub.stl",
+      "assembled_bounds": [
+        [
+          -66.0,
+          -56.0,
+          3.0
+        ],
+        [
+          66.0,
+          56.0,
+          51.5
+        ]
+      ],
+      "print_bounds": [
+        [
+          -66.0,
+          -56.0,
+          0.0
+        ],
+        [
+          66.0,
+          56.0,
+          48.5
+        ]
+      ],
+      "dimensions": [
+        132.0,
+        112.0,
+        48.5
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        0.0,
+        0.0,
+        -3.0
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "volume_mm3": 74197.01,
+      "faces": 9636,
+      "notes": "Low servo cradle rises to51mm from deck; MG996R long axis Y; two front12.2mm buttons. Support roof and cradle; review slicer orientation."
+    },
+    "02_base_bottom_cover": {
+      "file": "stl/02_base_bottom_cover.stl",
+      "assembled_bounds": [
+        [
+          -65.7,
+          -55.7,
+          0.0
+        ],
+        [
+          65.7,
+          55.7,
+          3.0
+        ]
+      ],
+      "print_bounds": [
+        [
+          -65.7,
+          -55.7,
+          0.0
+        ],
+        [
+          65.7,
+          55.7,
+          3.0
+        ]
+      ],
+      "dimensions": [
+        131.4,
+        111.4,
+        3.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "volume_mm3": 41640.52,
+      "faces": 3750,
+      "notes": "Generic tie slots; relocated37x66x12 LiPo reserve left of low servo. No pressure ribs against pouch."
+    },
+    "03_reference_body_six_tentacles": {
+      "file": "stl/03_reference_body_six_tentacles.stl",
+      "assembled_bounds": [
+        [
+          -63.583,
+          -43.868,
+          32.0
+        ],
+        [
+          63.583,
+          44.998,
+          88.0
+        ]
+      ],
+      "print_bounds": [
+        [
+          -63.583,
+          -43.868,
+          0.0
+        ],
+        [
+          63.583,
+          44.998,
+          56.0
+        ]
+      ],
+      "dimensions": [
+        127.166,
+        88.867,
+        56.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        0.0,
+        0.0,
+        -32.0
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "volume_mm3": 102654.72,
+      "faces": 143512,
+      "notes": "Narrow25mm neck, flared54mm lower torso, six blended thick curls and integral suction pads. All fixed. Supports under raised curls."
+    },
+    "04_servo_clamp_1": {
+      "file": "stl/04_servo_clamp_1.stl",
+      "assembled_bounds": [
+        [
+          -19.5,
+          -19.0,
+          53.5
+        ],
+        [
+          19.5,
+          -9.0,
+          56.5
+        ]
+      ],
+      "print_bounds": [
+        [
+          -19.5,
+          -19.0,
+          0.0
+        ],
+        [
+          19.5,
+          -9.0,
+          3.0
+        ]
+      ],
+      "dimensions": [
+        39.0,
+        10.0,
+        3.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        0.0,
+        0.0,
+        -53.5
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "volume_mm3": 931.42,
+      "faces": 366,
+      "notes": "Low-servo flange clamp; assumed flange thickness2.5mm, verify actual servo."
+    },
+    "04_servo_clamp_2": {
+      "file": "stl/04_servo_clamp_2.stl",
+      "assembled_bounds": [
+        [
+          -19.5,
+          29.0,
+          53.5
+        ],
+        [
+          19.5,
+          39.0,
+          56.5
+        ]
+      ],
+      "print_bounds": [
+        [
+          -19.5,
+          29.0,
+          0.0
+        ],
+        [
+          19.5,
+          39.0,
+          3.0
+        ]
+      ],
+      "dimensions": [
+        39.0,
+        10.0,
+        3.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        0.0,
+        0.0,
+        -53.5
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "volume_mm3": 892.91,
+      "faces": 380,
+      "notes": "Low-servo flange clamp; assumed flange thickness2.5mm, verify actual servo."
+    },
+    "07_display_retainer": {
+      "file": "stl/07_display_retainer.stl",
+      "assembled_bounds": [
+        [
+          -38.0,
+          -19.0,
+          125.0
+        ],
+        [
+          38.0,
+          -16.0,
+          133.0
+        ]
+      ],
+      "print_bounds": [
+        [
+          -38.0,
+          -133.0,
+          0.0
+        ],
+        [
+          38.0,
+          -125.0,
+          3.0
+        ]
+      ],
+      "dimensions": [
+        76.0,
+        8.0,
+        3.0
+      ],
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_translation": [
+        0.0,
+        0.0,
+        19.0
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "volume_mm3": 1776.01,
+      "faces": 328,
+      "notes": "Rear retention bar spans PCB pocket; use soft insulating pads, avoid components. 2\u00d7M3 screws, PCB56.5\u00d734 assumed."
+    },
+    "05_head_front": {
+      "file": "stl/05_head_front.stl",
+      "assembled_bounds": [
+        [
+          -69.991,
+          -47.873,
+          84.0
+        ],
+        [
+          69.991,
+          0.2,
+          186.995
+        ]
+      ],
+      "print_bounds": [
+        [
+          -69.991,
+          84.0,
+          0.0
+        ],
+        [
+          69.991,
+          186.995,
+          48.073
+        ]
+      ],
+      "dimensions": [
+        139.982,
+        102.995,
+        48.073
+      ],
+      "print_rotation_xyz_deg": [
+        -90,
+        0,
+        0
+      ],
+      "print_translation": [
+        0.0,
+        0.0,
+        0.2
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "volume_mm3": 82027.22,
+      "faces": 30184,
+      "notes": "True ellipsoidal cat dome, rounded ears with shallow inner bowls, flared52\u00d744-to37\u00d730 viewing recess; TFTreserve60\u00d738\u00d712 centeredY\u221227. Integrated7mm neck pad. Rear-access M3 closure; curved bezel and cheek whiskers."
+    },
+    "06_head_rear": {
+      "file": "stl/06_head_rear.stl",
+      "assembled_bounds": [
+        [
+          -69.991,
+          0.2,
+          84.0
+        ],
+        [
+          69.991,
+          50.0,
+          186.995
+        ]
+      ],
+      "print_bounds": [
+        [
+          -69.991,
+          -186.995,
+          0.0
+        ],
+        [
+          69.991,
+          -84.0,
+          49.8
+        ]
+      ],
+      "dimensions": [
+        139.982,
+        102.995,
+        49.8
+      ],
+      "print_rotation_xyz_deg": [
+        90,
+        0,
+        0
+      ],
+      "print_translation": [
+        0.0,
+        0.0,
+        -0.20000000000000284
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "volume_mm3": 72630.02,
+      "faces": 23064,
+      "notes": "Rear speaker grille and integral strap frame; fourM3 pilot bosses with positive closure stops. Hollow shell; rear half of ears."
+    },
+    "08_hollow_neck_drive": {
+      "file": "stl/08_hollow_neck_drive.stl",
+      "assembled_bounds": [
+        [
+          -17.5,
+          -17.5,
+          60.0
+        ],
+        [
+          17.5,
+          17.5,
+          84.0
+        ]
+      ],
+      "print_bounds": [
+        [
+          -17.5,
+          -17.5,
+          0.0
+        ],
+        [
+          17.5,
+          17.5,
+          24.0
+        ]
+      ],
+      "dimensions": [
+        35.0,
+        35.0,
+        24.0
+      ],
+      "print_rotation_xyz_deg": [
+        0,
+        0,
+        0
+      ],
+      "print_translation": [
+        0.0,
+        0.0,
+        -60.0
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "volume_mm3": 8034.74,
+      "faces": 2282,
+      "notes": "Provisional hollow extension: lower17.5-radius OEM-horn flange z60..64, shaftOD18/ID10, upper28mm headplate. Match-drill horn; assess stiffness and bushing fit."
+    }
+  },
+  "reserves": {
+    "servo_body": {
+      "size_xyz": [
+        22,
+        43,
+        46
+      ],
+      "center_xyz": [
+        0,
+        10.35,
+        33
+      ],
+      "flange_and_horn": "separate provisional interface; not included in body rectangle"
+    },
+    "display": {
+      "size_xyz": [
+        60,
+        12,
+        38
+      ],
+      "center_xyz": [
+        0,
+        -27.0,
+        129.0
+      ],
+      "assumed_PCB": [
+        56.5,
+        34
+      ],
+      "visible_window_xz": [
+        37,
+        30
+      ],
+      "outer_funnel_xz": [
+        52,
+        44
+      ]
+    },
+    "speaker": {
+      "size_xyz": [
+        36,
+        18,
+        36
+      ],
+      "center_xyz": [
+        0,
+        26,
+        131.0
+      ]
+    },
+    "lipo": {
+      "size_xyz": [
+        37,
+        66,
+        12
+      ],
+      "center_xyz": [
+        -42,
+        0,
+        9
+      ],
+      "assumed_cell": [
+        35,
+        60,
+        8
+      ]
+    },
+    "esp32_c3": {
+      "size_xyz": [
+        27,
+        23,
+        12
+      ],
+      "center_xyz": [
+        40,
+        -25,
+        9
+      ]
+    },
+    "audio_amplifier": {
+      "size_xyz": [
+        24,
+        23,
+        12
+      ],
+      "center_xyz": [
+        42,
+        0,
+        9
+      ]
+    },
+    "servo_power_converter": {
+      "size_xyz": [
+        40,
+        25,
+        15
+      ],
+      "center_xyz": [
+        34,
+        24,
+        10.5
+      ]
+    },
+    "tp4056": {
+      "size_xyz": [
+        32,
+        20,
+        10
+      ],
+      "center_xyz": [
+        -6,
+        43,
+        8
+      ]
+    }
+  },
+  "warnings": [
+    "Real screen PCB, LiPo pouch, speaker module, USB board and button dimensions must be measured before full printing.",
+    "V3 changes servo layout: upright long-axis along Y, low cradle across base and lower body, with a new hollow drive extension. Horn, bearing, fasteners and load behavior need physical engineering checks.",
+    "Mesh checks establish watertight geometry only, not mechanical strength, fit or electrical safety.",
+    "Head yaw \u00b130 degrees is an intended initial limit, not tested travel; establish safe travel after wiring and fitting.",
+    "3.2mm clearance and2.5mm pilot holes may need drilling; choose screw lengths after measuring actual stack.",
+    "Assembly STL is for visualization, not a one-piece print."
+  ],
+  "assembled_bounds": [
+    [
+      -69.991,
+      -56.0,
+      0.0
+    ],
+    [
+      69.991,
+      56.0,
+      186.995
+    ]
+  ],
+  "assembled_dimensions": [
+    139.982,
+    112.0,
+    186.995
+  ],
+  "printed_part_interference_checks": [
+    {
+      "part_a": "01_base_tub",
+      "part_b": "02_base_bottom_cover",
+      "intersection_mm3": -0.0
+    },
+    {
+      "part_a": "01_base_tub",
+      "part_b": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "01_base_tub",
+      "part_b": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "01_base_tub",
+      "part_b": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "01_base_tub",
+      "part_b": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "01_base_tub",
+      "part_b": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "01_base_tub",
+      "part_b": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "01_base_tub",
+      "part_b": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "02_base_bottom_cover",
+      "part_b": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "02_base_bottom_cover",
+      "part_b": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "02_base_bottom_cover",
+      "part_b": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "02_base_bottom_cover",
+      "part_b": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "02_base_bottom_cover",
+      "part_b": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "02_base_bottom_cover",
+      "part_b": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "02_base_bottom_cover",
+      "part_b": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "03_reference_body_six_tentacles",
+      "part_b": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "03_reference_body_six_tentacles",
+      "part_b": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "03_reference_body_six_tentacles",
+      "part_b": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "03_reference_body_six_tentacles",
+      "part_b": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "03_reference_body_six_tentacles",
+      "part_b": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "03_reference_body_six_tentacles",
+      "part_b": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "04_servo_clamp_1",
+      "part_b": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "04_servo_clamp_1",
+      "part_b": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "04_servo_clamp_1",
+      "part_b": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "04_servo_clamp_1",
+      "part_b": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "04_servo_clamp_1",
+      "part_b": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "04_servo_clamp_2",
+      "part_b": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "04_servo_clamp_2",
+      "part_b": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "04_servo_clamp_2",
+      "part_b": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "04_servo_clamp_2",
+      "part_b": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "07_display_retainer",
+      "part_b": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "07_display_retainer",
+      "part_b": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "07_display_retainer",
+      "part_b": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "05_head_front",
+      "part_b": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "05_head_front",
+      "part_b": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "part_a": "06_head_rear",
+      "part_b": "08_hollow_neck_drive",
+      "intersection_mm3": -0.0
+    }
+  ],
+  "hardware_envelope_checks": [
+    {
+      "reserve": "servo_body",
+      "part": "01_base_tub",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_body",
+      "part": "02_base_bottom_cover",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_body",
+      "part": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_body",
+      "part": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_body",
+      "part": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_body",
+      "part": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_body",
+      "part": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_body",
+      "part": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_body",
+      "part": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "display",
+      "part": "01_base_tub",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "display",
+      "part": "02_base_bottom_cover",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "display",
+      "part": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "display",
+      "part": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "display",
+      "part": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "display",
+      "part": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "display",
+      "part": "05_head_front",
+      "intersection_mm3": -0.0
+    },
+    {
+      "reserve": "display",
+      "part": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "display",
+      "part": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "speaker",
+      "part": "01_base_tub",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "speaker",
+      "part": "02_base_bottom_cover",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "speaker",
+      "part": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "speaker",
+      "part": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "speaker",
+      "part": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "speaker",
+      "part": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "speaker",
+      "part": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "speaker",
+      "part": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "speaker",
+      "part": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "lipo",
+      "part": "01_base_tub",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "lipo",
+      "part": "02_base_bottom_cover",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "lipo",
+      "part": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "lipo",
+      "part": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "lipo",
+      "part": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "lipo",
+      "part": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "lipo",
+      "part": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "lipo",
+      "part": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "lipo",
+      "part": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "esp32_c3",
+      "part": "01_base_tub",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "esp32_c3",
+      "part": "02_base_bottom_cover",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "esp32_c3",
+      "part": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "esp32_c3",
+      "part": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "esp32_c3",
+      "part": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "esp32_c3",
+      "part": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "esp32_c3",
+      "part": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "esp32_c3",
+      "part": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "esp32_c3",
+      "part": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "audio_amplifier",
+      "part": "01_base_tub",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "audio_amplifier",
+      "part": "02_base_bottom_cover",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "audio_amplifier",
+      "part": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "audio_amplifier",
+      "part": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "audio_amplifier",
+      "part": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "audio_amplifier",
+      "part": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "audio_amplifier",
+      "part": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "audio_amplifier",
+      "part": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "audio_amplifier",
+      "part": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_power_converter",
+      "part": "01_base_tub",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_power_converter",
+      "part": "02_base_bottom_cover",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_power_converter",
+      "part": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_power_converter",
+      "part": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_power_converter",
+      "part": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_power_converter",
+      "part": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_power_converter",
+      "part": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_power_converter",
+      "part": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "servo_power_converter",
+      "part": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "tp4056",
+      "part": "01_base_tub",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "tp4056",
+      "part": "02_base_bottom_cover",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "tp4056",
+      "part": "03_reference_body_six_tentacles",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "tp4056",
+      "part": "04_servo_clamp_1",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "tp4056",
+      "part": "04_servo_clamp_2",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "tp4056",
+      "part": "07_display_retainer",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "tp4056",
+      "part": "05_head_front",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "tp4056",
+      "part": "06_head_rear",
+      "intersection_mm3": 0.0
+    },
+    {
+      "reserve": "tp4056",
+      "part": "08_hollow_neck_drive",
+      "intersection_mm3": 0.0
+    }
+  ],
+  "sampled_printed_yaw_checks": [
+    {
+      "yaw_degrees": -30,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": -25,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": -20,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": -15,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": -10,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": -5,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": 0,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": 5,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": 10,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": 15,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": 20,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": 25,
+      "fixed_part_intersection_mm3": 0.0
+    },
+    {
+      "yaw_degrees": 30,
+      "fixed_part_intersection_mm3": 0.0
+    }
+  ],
+  "yaw_check_limit": "13 static mesh poses at5-degree increments; excludes installed hardware, wires, screw heads and actual servo alignment. Physical motion is unverified."
+}

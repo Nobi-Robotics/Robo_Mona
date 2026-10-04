@@ -1,0 +1,13 @@
+V5 - Rounded cat ears
+
+Changes from V4:
+- Rounded ear tips increased from 1.7 mm to 4.5 mm radius.
+- Fuller curved sides and a gentle outward lean replace the sharp triangular profile.
+- Shallow inner-ear bowls added to the front-facing side of each ear.
+- Ear top lowered 3 mm to Z187; nominal assembled size 140 x 112 x 187 mm.
+- Outer head shell, screen opening, neck mechanism and six tentacles retain V4 dimensions.
+
+Use both new head shells together (05_head_front and 06_head_rear).
+All seven remaining parts can be reused from V4. The full kit is also included.
+The preview is rendered from the exported geometry, with no electronics installed.
+Geometry checks do not validate real hardware fit, print quality or loaded motion.

@@ -1,0 +1,52 @@
+{
+  "units": "mm",
+  "wall": 2.4,
+  "base_width": 132.0,
+  "base_depth": 112.0,
+  "base_height": 32.0,
+  "base_corner_radius": 22.0,
+  "cover_thickness": 3.0,
+  "head_width": 140.0,
+  "head_depth": 100.0,
+  "head_height": 90.0,
+  "head_bottom": 84.0,
+  "head_radius": 18.0,
+  "ear_top": 187.0,
+  "display_window": [
+    37.0,
+    30.0
+  ],
+  "display_reserve": [
+    60.0,
+    38.0,
+    12.0
+  ],
+  "display_center_z": 129.0,
+  "display_center_y": -27.0,
+  "display_outer_funnel": [
+    52.0,
+    44.0
+  ],
+  "speaker_reserve": [
+    36.0,
+    18.0,
+    36.0
+  ],
+  "servo_body_reserve": [
+    22,
+    43,
+    46
+  ],
+  "button_hole_diameter": 12.2,
+  "head_joint_gap": 0.4,
+  "m3_clearance": 3.2,
+  "m3_pilot": 2.5,
+  "quality_segments": 96,
+  "sculpt_grid_mm": 0.65,
+  "servo_body_center_xyz": [
+    0,
+    10.35,
+    33
+  ],
+  "ear_tip_radius": 4.5
+}
