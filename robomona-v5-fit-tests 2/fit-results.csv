@@ -1,0 +1,9 @@
+gauge,opening_width_mm,opening_height_mm,remaining_reserved_dimension_mm,measured_component_width,measured_component_height,measured_component_depth,connector_clearance,result_notes
+01_servo_body_22x43mm,22,43,46,,,,,
+02_display_60x38mm,60,38,12,,,,,
+03_speaker_36x36mm,36,36,18,,,,,
+04_lipo_37x66mm,37,66,12,,,,,
+05_esp32_c3_27x23mm,27,23,12,,,,,
+06_tp4056_32x20mm,32,20,10,,,,,
+07_audio_amplifier_24x23mm,24,23,12,,,,,
+08_servo_power_converter_40x25mm,40,25,15,,,,,

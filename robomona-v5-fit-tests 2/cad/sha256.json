@@ -1,0 +1,16 @@
+{
+  "README.txt": "7bd23be980f5c321080782bbaee6d7923d3b1f7b506eb89605aba871bccd64dc",
+  "cad/design-validation-reference.json": "db26379761662c96731dbcf68cbef03b5882b289d3c4d6916440bd1bff163de6",
+  "cad/gauge-validation.json": "4add2ed394d024a5066fbd8380b984338ed322ff5326583a4d6e6683c3d821ed",
+  "cad/generate_gauges.py": "8689be0dfbb7acebb820479495167453e8f9f6c3e1db8fb02eebfb52a43630b3",
+  "fit-results.csv": "e4b0ded224a42868ccfe2788a1d53ccafb17e1b878f9283c2b737d87a10b4364",
+  "stl/01_servo_body_22x43mm.stl": "7634e5a1fdf49948c9b8afdd6edd4fc7808bd0ddcae8f040dbb9d74e6afc339b",
+  "stl/02_display_60x38mm.stl": "6f374c2586287bfbdb711e40f613d2bda241066ffcd0135b3141389dc9ac6fa9",
+  "stl/03_speaker_36x36mm.stl": "9d4fbbf6bb28023d6d26f577e1bd4aa336312d04243a3a9a609190a9400edec2",
+  "stl/04_lipo_37x66mm.stl": "4c7e39cee74c4bc026665e87079c359eef153f7730a7c71b914f941b3917c1cd",
+  "stl/05_esp32_c3_27x23mm.stl": "c1cba3caa278403cd3e0a5dbfaa9005bb3c630b2e4efac65912d6ae466c4bec7",
+  "stl/06_tp4056_32x20mm.stl": "658faebe64dda35defb21d3f1072a716f794f811b060077dd36673bb8db73fcf",
+  "stl/07_audio_amplifier_24x23mm.stl": "2251cb067acfbc0f30e0a4d71d1d257040e895215c37cef572edf1625c9e644d",
+  "stl/08_servo_power_converter_40x25mm.stl": "007e7b22ad94d434c831ae32b238cbbf192f4fc4d1717ab712987b6458a6ccd7",
+  "stl/09_button_hole_D12p2mm.stl": "3b1492e79808493b892188936fa401c5bfb6292a9c1075546abad0a582017f5c"
+}

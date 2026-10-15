@@ -1,0 +1,77 @@
+{
+  "scope": "Planar envelope gauges only, not mount or insertion-path validation",
+  "parts": [
+    {
+      "file": "stl/01_servo_body_22x43mm.stl",
+      "closed_edges": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "volume_mm3": 1278.0,
+      "triangles": 32
+    },
+    {
+      "file": "stl/02_display_60x38mm.stl",
+      "closed_edges": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "volume_mm3": 1872.0,
+      "triangles": 32
+    },
+    {
+      "file": "stl/03_speaker_36x36mm.stl",
+      "closed_edges": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "volume_mm3": 1404.0,
+      "triangles": 32
+    },
+    {
+      "file": "stl/04_lipo_37x66mm.stl",
+      "closed_edges": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "volume_mm3": 1962.0,
+      "triangles": 32
+    },
+    {
+      "file": "stl/05_esp32_c3_27x23mm.stl",
+      "closed_edges": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "volume_mm3": 1008.0,
+      "triangles": 32
+    },
+    {
+      "file": "stl/06_tp4056_32x20mm.stl",
+      "closed_edges": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "volume_mm3": 1044.0,
+      "triangles": 32
+    },
+    {
+      "file": "stl/07_audio_amplifier_24x23mm.stl",
+      "closed_edges": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "volume_mm3": 954.0,
+      "triangles": 32
+    },
+    {
+      "file": "stl/08_servo_power_converter_40x25mm.stl",
+      "closed_edges": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "volume_mm3": 1278.0,
+      "triangles": 32
+    },
+    {
+      "file": "stl/09_button_hole_D12p2mm.stl",
+      "closed_edges": true,
+      "consistent_winding": true,
+      "connected_components": 1,
+      "volume_mm3": 610.48,
+      "triangles": 1024
+    }
+  ]
+}
